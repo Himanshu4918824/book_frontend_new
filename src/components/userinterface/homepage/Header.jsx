@@ -21,7 +21,7 @@ export default function Header()
 
         <nav className="xo-nav xo-nav-left">
           <a href="/">HOME</a>
-          <a href="#">SHOP</a>
+          {/* <a href="#">SHOP</a> */}
         </nav>
 
         <div style={{cursor:'pointer'}} className="xo-logo" onClick={()=>navigate('/')}>XOFFENCER</div>
@@ -51,14 +51,14 @@ export default function Header()
                 />
               </svg>
             </span>
-            <span>LOG IN</span>
+            {/* <span>LOG IN</span> */}
           </a>
         </nav>
       </div>
 
       <div className={`xo-mobile-menu ${menuOpen ? "show" : ""}`}>
         <a href="/">HOME</a>
-        <a href="#">SHOP</a>
+        {/* <a href="#">SHOP</a> */}
         <a href="/about">ABOUT US</a>
         <a href="/contact" className="active">CONTACT US</a>
         <a href="#" className="xo-login mobile-login">
@@ -83,7 +83,7 @@ export default function Header()
               />
             </svg>
           </span>
-          <span>LOG IN</span>
+          {/* <span>LOG IN</span> */}
         </a>
       </div>
     </header>
